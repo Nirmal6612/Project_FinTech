@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #ff416c, #ff9966);
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.lang-select {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.login-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.signup-btn {
+  background: white;
+  color: red;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 3rem;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.hero-text p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.store-buttons button {
+  margin-right: 1rem;
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+/* Footer Nav */
+.footer-nav {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1rem;
+  background: #ff5a3d;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+}
+.footer-nav button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #0C67A0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.Headline {
+  color:black;
+   
+}
+
+.form-toggle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-toggle button {
+  width: 50%;
+  padding: 10px;
+  background-color: #f3f3f3;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px 10px 0 0;
+}
+
+.form-toggle .active {
+  background-color: #033452;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form h2 {
+  margin-bottom: 20px;
+}
+
+.form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form button {
+  padding: 10px;
+  background-color:#033452;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form a {
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.form p {
+  text-align: center;
+}
